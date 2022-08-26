@@ -3,7 +3,7 @@ console.log('value of anObject:', anObject);
 console.log('typeof anObject:', typeof anObject);
 
 var anArray = new Array();
-console.log('value of anOArray:', anArray);
+
 console.log('typeof anArray:', typeof anArray);
 
 var aFunction = new Function();
