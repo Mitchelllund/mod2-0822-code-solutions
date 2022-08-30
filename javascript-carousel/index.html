@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Carousel</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="column-full justify-space-around">
+          <i class="fa-solid fa-chevron-left fa-3x" id="previous"></i>
+          <div class="Carousel">
+            <img src="images/025.png" alt="Pikachu" class="view">
+            <img src="images/001.png" alt="Bulbasaur" class="hide">
+            <img src="images/004.png" alt="Charmander" class="hide">
+            <img src="images/007.png" alt="Squirtle" class="hide">
+            <img src="images/039.png" alt="JigglyPuff" class="hide">
+          </div>
+          <i class="fa-solid fa-chevron-right fa-3x" id="next"></i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column-full justify-center">
+          <div class="dots-carousel">
+            <i class="dots fa-solid fa-circle" ></i>
+            <i class="dots fa-regular fa-circle"></i>
+            <i class="dots fa-regular fa-circle"></i>
+            <i class="dots fa-regular fa-circle"></i>
+            <i class="dots fa-regular fa-circle"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="main.js"></script>
+</body>
+</html>
