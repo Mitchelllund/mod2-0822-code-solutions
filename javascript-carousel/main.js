@@ -2,6 +2,7 @@ var $previous = document.querySelector('#previous');
 var $next = document.querySelector('#next');
 var $carousel = document.querySelectorAll('.Carousel img');
 var $dots = document.getElementsByClassName('dots');
+var $dot = document.querySelector('.dots-carousel');
 var $numOfImgs = document.querySelectorAll('.Carousel img').length;
 var $imageIndex = 0;
 var changePhoto = window.setInterval(next, 3000);
@@ -39,5 +40,40 @@ function previous(event) {
   }
 }
 
+function dotClick(event) {
+  if (event.target.id === 'pikachu') {
+    $carousel[0].classList.replace('hide', 'view');
+    $carousel[$imageIndex].classList.replace('view', 'hide');
+    $dots[0].classList.replace('fa-regular', 'fa-solid');
+    $dots[$imageIndex].classList.replace('fa-solid', 'fa-regular');
+    $imageIndex = 0;
+  } else if (event.target.id === 'bulbasaur') {
+    $carousel[1].classList.replace('hide', 'view');
+    $carousel[$imageIndex].classList.replace('view', 'hide');
+    $dots[1].classList.replace('fa-regular', 'fa-solid');
+    $dots[$imageIndex].classList.replace('fa-solid', 'fa-regular');
+    $imageIndex = 1;
+  } else if (event.target.id === 'charmander') {
+    $carousel[2].classList.replace('hide', 'view');
+    $carousel[$imageIndex].classList.replace('view', 'hide');
+    $dots[2].classList.replace('fa-regular', 'fa-solid');
+    $dots[$imageIndex].classList.replace('fa-solid', 'fa-regular');
+    $imageIndex = 2;
+  } else if (event.target.id === 'squirtle') {
+    $carousel[3].classList.replace('hide', 'view');
+    $carousel[$imageIndex].classList.replace('view', 'hide');
+    $dots[3].classList.replace('fa-regular', 'fa-solid');
+    $dots[$imageIndex].classList.replace('fa-solid', 'fa-regular');
+    $imageIndex = 3;
+  } else if (event.target.id === 'jigglypuff') {
+    $carousel[4].classList.replace('hide', 'view');
+    $carousel[$imageIndex].classList.replace('view', 'hide');
+    $dots[4].classList.replace('fa-regular', 'fa-solid');
+    $dots[$imageIndex].classList.replace('fa-solid', 'fa-regular');
+    $imageIndex = 4;
+  }
+}
+
+$dot.addEventListener('click', dotClick);
 $next.addEventListener('click', next);
 $previous.addEventListener('click', previous);
