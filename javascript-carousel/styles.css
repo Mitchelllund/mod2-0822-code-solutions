@@ -1,0 +1,40 @@
+body {
+  margin: 1;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 1rem auto;
+  border: solid;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+img {
+  height: fit-content;
+}
+
+button {
+  border: none;
+  background-color: white;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-center {
+  justify-content: center;
+}
