@@ -1,0 +1,134 @@
+    1  git status
+    2  git pull origin main
+    3  git branch es6-const-let
+    4  git branch --list
+    5  git branch --list
+    6  git switch es6-const-let 
+    7  git status
+    8  git status
+    9  git add es6-const-let
+   10  git status
+   11  git status
+   12  git add es6-const-let
+   13  git status
+   14  git commit -m "Completed es6-const-let."
+   15  git push origin es6-const-let
+   16  git switch main
+   17  git switch es6-const-let 
+   18  git switch main
+   19  git status
+   20  git pull origin main
+   21  git branch es6-template-literals
+   22  git switch es6-template-literals 
+   23  git status
+   24  git add es6-template-literals
+   25  git status
+   26  git commit -m "Completed es6-template-literals."
+   27  git push origin es6-template-literals
+   28  git switch main
+   29  git status
+   30  git pull origin main
+   31  git branch es6-destructuring
+   32  git switch es6-destructuring 
+   33  git status
+   34  git status
+   35  git add es6-destructuring
+   36  git status
+   37  git commit -m "Completed es6-destructuring."
+   38  git push es6-destructuring
+   39  git push origin es6-destructuring
+   40  git switch main
+   41  git status
+   42  git branch es6-arrow-functions
+   43  git switch es6-arrow-functions 
+   44  git status
+   45  git status
+   46  git add es6-arrow-functions
+   47  git commit -m "Completed es6-arrow-functions."
+   48  git push origin es6-arrow-functions
+   49  git switch main
+   50  git switch es6-destructuring 
+   51  git status
+   52  git add es6-destructuring
+   53  git commit -m "Completed fixed mistake es6-destructuring."
+   54  git push origin es6-destructuring 
+   55  git switch main
+   56  git pull origin main
+   57  git status
+   58  git branch command-line-basics
+   59  git switch command-line-basics
+   60  cd name-of-exercise
+   61  cd command-line-basics
+   62  man man
+   63  man cat
+   64  man cat 
+   65  man cat -A
+   66  cat laziness.txt
+   67  cat impatience.txt 
+   68  cat hubris.txt 
+   69  man cat
+   70  cat laziness.txt impatience.txt hubris.txt 
+   71  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+   72  ccat three-virtues.txt 
+   73  cat three-virtues.txt 
+   74  man ls
+   75  man ls
+   76  ls 
+   77  ls -a
+   78  ls -F
+   79  ls lfz-staff/
+   80  ls lfz-staff/ -a
+   81  ls lfz-staff/ -F
+   82  ls -aF lfz-staff/ > lfz-staff/contents.txt
+   83  ls -a lfz-staff/
+   84  ls -a lfz-staff/contents.txt
+   85  ls lfz-staff/contents.txt
+   86  cat lfz-staff/contents.txt 
+   87  man pwd
+   88  pwd 
+   89  pwd > i-was-here.txt
+   90  ls
+   91  cat i-was-here.txt 
+   92  man echo
+   93  echo 'Hello, World!'
+   94  echo 'Hello, World!' > hello.txt
+   95  ls hello.txt 
+   96  ls
+   97  cat hello.txt 
+   98  man cat
+   99  man touch
+  100  touch tag-youre-it.txt
+  101  touch snoot/boop.txt
+  102  ls snoot/
+  103  man mkdir
+  104  mkdir parent
+  105  ls parent/
+  106  ls parent
+  107  ls
+  108  mkdir -p parent/child/grandchild
+  109  ls -a
+  110  touch parent/child/grandchild/ > .gitkeep
+  111  touch parent/child/grandchild/.gitkeep
+  112  touch parent/child/grandchild/.gitkeep
+  113  man mkdir
+  114  ls -a
+  115  man mv
+  116  mv pokiemans pokemon
+  117  ls
+  118  man rm
+  119  rm lol.txt 
+  120  ls lol.text
+  121  rm -r kill-me/
+  122  ls kill-me/
+  123  man cp
+  124  man cp
+  125  cp and-then.txt no-and-then.txt
+  126  ls
+  127  cat
+  128  cd command-line-basics/
+  129  man cp
+  130  cat and-then.txt 
+  131  cat no-and-then.txt 
+  132  man history
+  133  history
+  134  history > command-history.txt
