@@ -16,20 +16,14 @@ function operation() {
   if (operations === 'create') {
     data.notes[data.nextId] = id;
     data.nextId++;
-    fs.writeFile('data.json', JSON.stringify(data), err => {
-      if (err) throw err;
-    });
-  }
-  if (operations === 'update') {
-    data.notes[id] = note;
-    fs.writeFile('data.json', JSON.stringify(data), err => {
-      if (err) throw err;
-    });
-  }
-  if (operations === 'delete') {
+  } else if (operations === 'update') {
+    if (data.notes[id] !== undefined) {
+      data.notes[id] = note;
+    }
+  } else if (operations === 'delete') {
     delete data.notes[id];
-    fs.writeFile('data.json', JSON.stringify(data), err => {
-      if (err) throw err;
-    });
   }
+  fs.writeFile('data.json', JSON.stringify(data, null, 2), err => {
+    if (err) throw err;
+  });
 }
